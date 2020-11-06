@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="google-module" thread-count="5" allow-return-values="true">
+<!-- <test name="fmr-login-test">
+		<classes>
+			<class name="com.mindtree.testscripts.FindMyRoomLoginDockerTest" />
+		</classes>
+	</test> -->
+	 <test name="google-test">
+		<classes>
+			<class name="com.mindtree.testscripts.GoogleDockerTest" />
+		</classes>
+	</test> 
+</suite>

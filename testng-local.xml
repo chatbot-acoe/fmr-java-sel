@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login-module" thread-count="5" allow-return-values="true" >
+  <test name="fmr-login-test">
+    <classes>
+      <class name="com.mindtree.testscripts.FindMyRoomLoginLocalTest"/>
+    </classes>
+  </test>
+</suite>
